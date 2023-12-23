@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>To-Do List</title>
+    <script src = "//.js/toDoList.js/"></script>
 </head>
 <body>
-    <div id = "title"><center>To Do List </center></div>
+  <div id = "title">To Do List:</div>
+<br>
+    Enter a task:
+  <br>
+    <div id = "myDIV">
+      <input type = "text" id = "myInput">
+        <span onclick="newElement()" class = "addBtn">Add</span>
+    </div>
 
-    <!--Use a form and then write a Text box for user -->
-    <form action = "toDoList.html">
-        <label for="tasks">Things to Do:</label>
-        <input type="text" id = "tasks" name="tasks"></input>
-    </form>
+    <ul id = "myUL">
+
+    </ul>
+
 
 </body>
 </html>
