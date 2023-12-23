@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>To-Do List</title>
-    <script src = "//.js/toDoList.js/"></script>
+    <!--Note to self: when your js file is in a folder that is located one folder level up, you want to type '../.js/yourFile.js/'
+     Because of this, I was having trouble making the add button work.-->
+    <script src = "../.js/toDoList.js/"></script>
 </head>
 <body>
   <div id = "title">To Do List:</div>
 <br>
     Enter a task:
   <br>
-    <div id = "myDIV">
+    <div id = "myDIV" class = "header">
       <input type = "text" id = "myInput">
         <span onclick="newElement()" class = "addBtn">Add</span>
     </div>
