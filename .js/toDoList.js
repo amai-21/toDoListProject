@@ -1,4 +1,4 @@
-//Create a new list item when clicking on the "Add" button
+//Create a new list item when clicking on the "Ad.d" button
 function newElement(){
     var li = document.createElement("li");
     var inputValue = document.getElementById("myInput");
